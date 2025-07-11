@@ -1,0 +1,57 @@
+What is HTML?
+- HTML is used to create a static webpages/websites
+- it will acting backbone for every tech based on web
+-HTML will basically create a structure of web page
+
+-History of HTML
+- created in year 1989 by tim baurners lee
+-HTML-1.0-1991
+HTML-2.0-1995
+HTML-3.0-1997
+HTML-4.0-1999
+XHTMl-1.o-2000
+HTML-5.0-2014
+
+-Structure of HTMl:
+<!DOCTYPE html>-refering to that this purticuler HTMl belongs to 5.0 version
+<html lang="en">-core tag
+<head>-meta data,styles,link
+<title>Name</title>
+</head>
+<body>
+elemts you are creating here
+</body>
+</html>
+
+Fileing Convention:
+ name of the file.html
+
+Tags:
+-tags are nothing but predefined keywords with represting some properties
+
+paried tags:
+ <Tag>          </Tag>
+ opening tag   closeing tag
+
+ <h></h>
+ <p></p>
+
+Unpaired Tag:
+<img/>
+<hr/>
+<br/>
+
+Attributes:
+arrname:'arr value'
+
+will change the defalut nature of the tag
+ex: style,href.... etc
+
+elemtns:
+the content along with the opening and closing tags are elements
+
+types of elements:
+-inline elements:
+bold,italic....etc
+-block level elemtns:
+<h><p>etc.....
