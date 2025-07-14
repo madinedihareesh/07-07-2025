@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!-- 
+    Tables:
+     Are nothing but arraning data in a rows and coloum format
+
+     table head
+     table row
+     table data
+
+     structure for ctreating tables
+     <table>
+        <thaead>
+            <tr>
+                <td>
+                    Employee
+                </td>
+            <tr>
+            <tr>
+                <td>S.no</td>
+                <td>name</td>
+                <td>phone</td>
+                <td>email</td>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+     </table>
+
+     -->
+     <table border="4" id="Emp-table"  style="text-align: center;">
+        <thead>
+            <tr>
+                <td colspan="4">
+                    <b>
+                    Employee table
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td>S.no</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Peter</td>
+                <td>petr@gmail.com</td>
+                <td rowspan="4">1234567890</td>
+            </tr>
+              <tr>
+                <td>2</td>
+                <td>Parker</td>
+                <td>parker@gmail.com</td>
+                <!-- <td>1234567890</td> -->
+            </tr>
+              <tr>
+                <td>1</td>
+                <td>Ben</td>
+                <td>Ben@gmail.com</td>
+                <!-- <td>1234567890</td> -->
+            </tr>
+              <tr>
+                <td>1</td>
+                <td>Lisa</td>
+                <td>Lisa@gmail.com</td>
+                <!-- <td>1234567890</td> -->
+            </tr>
+        </tbody>
+     </table>
+   
+     <!-- Billing Table -->
+      <div style="text-align: center;display: flex; justify-content: center; ">
+      <table border="1"  style="text-align: center;">
+        <thead>
+            <tr>
+                <td colspan="2" >
+                    Billing
+                </td>
+            </tr>
+            <tr>
+                <td>Product</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ice-cream</td>
+                <td>$120.00</td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td>$30,000.00</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>$50,000.00</td>
+            </tr>    
+            <tr>
+                <td>smart watch</td>
+                <td>$2,000.00</td>
+            </tr>    
+                
+            <tr> 
+                <td>Glasses</td>
+                <td>$500.00</td>
+                
+            </tr>
+            <tr>
+                <td>Bag</td>
+                <td>$1000.00</td>
+            </tr>
+        </tbody>
+      </table>
+      </div>
+      
+
+
+</body>
+</html>
