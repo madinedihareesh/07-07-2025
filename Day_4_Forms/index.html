@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data" autocomplete="off">
+        <label for="Fname">First Name :</label>
+        <input type="text" name="Firstname" id="Fname" placeholder="Enter your First Name" required autofocus>
+        <br>
+        <label for="Lname">Last Name :</label>
+        <input type="text" name="Lastname" id="Lname" placeholder=" Enter your Lastname">
+        <br>
+        <label for="psd">Enter your Password</label>
+        <input type="password" placeholder="Enter your password" name="password" id="psd">
+        <br>
+        <label for="cpsd">Confirm password</label>
+        <input type="password" placeholder="Conforim your password" name="cpassword" id="cpsd">
+        <br>
+        <label for="email">Enter your Email</label>
+        <input type="email" placeholder="Example@domain.com" name="email" id="email" style="width: 300px;">
+        <br>
+        <label for="mobile">Enter your Mobile number</label>
+        <input type="tel" placeholder="+91" name="mobile" id="mobile">
+        <br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" placeholder="Date of Birth" name="DOb" id="DOB">
+        <br>
+        <label for="range">Range</label>
+        <input type="range" id="range">
+        <br>
+        <label for="fcolor">Fav Color</label>
+        <input type="color" id="fcolor">
+        <br>
+        <label for="age"> Age : </label>
+        <input type="number" placeholder="enter your age" id="age">
+        <br>
+        <label for="add">Address</label>
+        <address>
+            <textarea name="address" id="add" cols="100" rows="10"></textarea>
+        </address>
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender">
+
+        <br>
+        <label for="city">Select City</label>
+        <input type="text" id="city" list="lists" placeholder="Select city">
+        <datalist id="lists">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Chenni">Chenni</option>
+            <option value="Vizag">Vizag</option>
+            <option value="Vijayawada">Vijayawada</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Mp">Mp</option>
+        </datalist>
+
+        <select name="" id="">
+             <option value="">-------Select City---------</option>
+             <option value="Hyderabad">Hyderabad</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Chenni">Chenni</option>
+            <option value="Vizag">Vizag</option>
+            <option value="Vijayawada">Vijayawada</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Mp">Mp</option>
+        </select>
+        <br>
+        <label for="time">Time :</label>
+        <input type="time">
+        <br>
+        <label for="hobbies">Hobbies</label>
+        <label for="criket">Criket</label>
+        <input type="checkbox">
+        <label for="travel">Travel</label>
+        <input type="checkbox">
+        <label for="music">Music</label>
+        <input type="checkbox">
+        <label for="reading">Reading Book</label>
+        <input type="checkbox">
+        <label for="study">Study</label>
+        <input type="checkbox">
+        <br>
+        <label for="photo">Upload an image</label>
+        <input type="file">
+
+        <br>
+        <button>Submit</button>
+        <button>Reset</button>
+        <button>Cancel</button>
+    </form>
+</body>
+</html>
