@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    /* Outer table styling */
+    table {
+      border-collapse: collapse;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    thead td {
+      background-color: #333;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 12px;
+    }
+
+    td {
+      padding: 15px;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #ccc;
+    }
+
+    /* Inner table styles */
+    table table {
+      border: 2px solid #007BFF;
+      margin: auto;
+      background-color: #f0f8ff;
+    }
+
+    table table thead td {
+      background-color: #007BFF;
+      color: white;
+      font-weight: bold;
+    }
+
+    table table td {
+      border: 1px solid #007BFF;
+      padding: 8px;
+    }
+
+    /* Hover effect on nested cells */
+    table table td:hover {
+      background-color: #dbeeff;
+    }
+  </style>
+</head>
+<body>
+    <table border="1" style="text-align: center;" cellpadding="10">
+        <thead>
+            <tr>
+                <td colspan="4">Nested Table</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td colspan="2">table1.1</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>table1.1.1</td>
+                                <td>table1.1.2</td>
+                            </tr>
+                            <tr>
+                                <td>table2.1.1</td>
+                                <td>table2.1.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
