@@ -1,0 +1,20 @@
+:root{
+    --background:blue;
+    --textcolor:white;
+    --sbackground:green;
+    --stextcolor: red;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    background-color:var(--sbackground);
+    color: var(--stextcolor);
+}
+ul{
+    display: flex; 
+    justify-content: space-between;
+    gap: 10px;
+}
+li a{
+        color: white;
+    }

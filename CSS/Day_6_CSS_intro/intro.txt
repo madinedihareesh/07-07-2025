@@ -1,0 +1,9 @@
+Css: Case cading stylesheet
+version: css3
+what is css: Html will create basic structure of Web page 
+where css will provide styles for the structure and creats rich user interface
+
+Types of CSS:
+1.Inline css
+2.Internal Css
+3. External CSS
