@@ -1,0 +1,9 @@
+Selectors:
+ These selectors are used to provide styles for a perticuler/group of elemnts in webpage
+
+ Types of Selectors:
+ 1.Global/universal selectors (*)
+ 2.Tag/Element selectors (name fo the tag)
+ 3.id selectors (#)
+ 4.class selectors (.)
+ 5.Attribute selectors ([])
