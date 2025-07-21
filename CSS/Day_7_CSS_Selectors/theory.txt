@@ -2,8 +2,32 @@ Selectors:
  These selectors are used to provide styles for a perticuler/group of elemnts in webpage
 
  Types of Selectors:
+A. Genral selectors:
  1.Global/universal selectors (*)
  2.Tag/Element selectors (name fo the tag)
  3.id selectors (#)
  4.class selectors (.)
  5.Attribute selectors ([])
+
+B. Combination Selectors:
+syntax:
+selector:pseudo element{}
+1.Psuedo Class selectors: (:)
+  a.active 
+  b.visited
+  c.hover
+  d.first-child
+  e.last-child
+  f.nth-chilid()
+2.psuedo Elements:(::)
+  a. before
+  b.after
+  c.first letter
+  d.first line
+  e.marker
+  f.place holder  
+3. Relationship selectors:
+   a. Desendent ( )
+   b.adjesent(+)
+   c.direct child(>)
+   d.gendral child(~)  
