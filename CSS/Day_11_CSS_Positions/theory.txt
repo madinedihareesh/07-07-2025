@@ -1,0 +1,21 @@
+Position:
+1.static:
+ a. i will never covert from block level to inline
+ b. i will never listens to browser view port
+ c.it fllows along with the pageflow
+2. absolute:
+  a.it will convert from block level to inline
+  b.it will listiens to the browser viewport
+  c. it will fllows the page flow 
+3.relative:
+a. it will never convert from block level to inline element
+b. it will never listens to the browser view port. but it will listens to its current Position
+c. it will flows along will the page flow
+4.fixed:
+a. it will convert from block level to inline 
+b. it will listens to the view port
+c. it will never flows with the page flow
+5.sticky:
+a. it will never convert from block level in inline
+b.it will listens to the browser viewport
+c. it will never fllows the page flow
