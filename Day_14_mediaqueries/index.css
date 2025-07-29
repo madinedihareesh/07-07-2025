@@ -1,0 +1,96 @@
+@media screen and (min-width:768px) and (max-width:1440px) {
+    .head{
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid black;
+        background-color: blue;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .linkcontainer{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    .banner{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        background-color: lightgray;
+        align-items: center;
+        border-radius: 20px;
+
+    }
+    .item{
+        width: 200px;
+        height: 250px;
+        background-color: blue;
+        color: white;
+        border-radius: 15px;
+        text-align: center;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .productscontainer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        
+    }
+    footer{
+        background-color: blue;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .head{
+        border: 2px solid black;
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+    .linkcontainer{
+        display: none;
+    }
+    .banner{
+         margin-top: 20px;
+         background-color: lightgray;
+        align-items: center;
+        border-radius: 20px;
+        text-align: center;
+    } 
+    .banner img{
+        display: none;
+    }
+      .item{
+        width: 200px;
+        height: 250px;
+        background-color: blue;
+        color: white;
+        border-radius: 15px;
+        text-align: center;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .productscontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        
+    }
+    footer{
+        background-color: blue;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
